@@ -6,7 +6,7 @@ public class SeleniumTest {
     public void launchbrowser() {
         System.setProperty("webdriver.chrome.driver", "D:\\Downloads\\chromedriver_win32\\chromedriver.exe");
         WebDriver driver =new ChromeDriver();
-        driver.get("https://www.google.com/");
+        driver.get("https://accounts.google.com/signin");
 
     }
 
